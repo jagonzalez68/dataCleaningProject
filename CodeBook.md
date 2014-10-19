@@ -2,11 +2,45 @@
 This dataset was built from the "Human Activity Recognition Using Smartphones Dataset"  
 from the UCI Machine Learning Repository. This dataset contains the following data
 - Data from 30 volunteers with age from 19 to 48 years
+
+## activity feature for each subject
 - People performed six activities: Walking, Walking_Upstairs, Walking_Downstairs,  
   Sitting, Standing, and Laying. This data was collected while wearing a Samsung  
   Galaxy S II smartphone on the waist. Data was collected by using the accelerometer  
   and gyroscope sensors of the smartphone: 3-axial linear acceleration and  
   3-axial angular velocity at a constant rate of 50Hz.
+
+## Features
+- This dataset contains the average (mean) for each feature for a subject and an  
+  activity. There are 30 subjects, 6 activities for each subject and 561 features  
+  for each different subject-activity.
+
+## Features units
+-  Acceleration features are in standard "g" units  
+-  Angular velocity measured with th egyroscope is in radians/second
+
+## Important note
+- Features are normalized in the range from -1 to 1: [-1, 1]
+  
+
+# Data Source
+
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - Università degli Studi di Genova.
+Via Opera Pia 11A, I-16145, Genoa, Italy.
+activityrecognition@smartlab.ws
+www.smartlab.ws
+
+# Reference
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra  
+and Jorge L. Reyes-Ortiz. Human Activity Recognition on  
+Smartphones using a Multiclass Hardware-Friendly Support  
+Vector Machine. International Workshop of Ambient Assisted  
+Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+
+# How Original Data was Pre-processed 
 - Raw data was pre-processed to obtain the following features where the:  
   "t" prefix corresponds to the time  domain of the data and the  
   "f" prefix corresponds to the frequency domain (obtained with the fast  
@@ -64,6 +98,8 @@ from the UCI Machine Learning Repository. This dataset contains the following da
   tBodyAccJerkMean  
   tBodyGyroMean  
   tBodyGyroJerkMean  
+
+# Set of Features
 
 The whole set of 561 features is the following:
 
