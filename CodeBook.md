@@ -1,11 +1,20 @@
 # Dataset
 This dataset was built from the "Human Activity Recognition Using Smartphones Dataset"  
-from the UCI Machine Learning Repository. This dataset contains the following data
-- Data from 30 volunteers with age from 19 to 48 years
+from the UCI Machine Learning Repository. It was created as the project for the "Getting  
+and Cleaning Data" course. The dataset contains the following data:  
 
-## activity feature for each subject
-- People performed six activities: Walking, Walking_Upstairs, Walking_Downstairs,  
-  Sitting, Standing, and Laying. This data was collected while wearing a Samsung  
+- Data from 30 volunteers (subjects) with age from 19 to 48 years.
+
+## Activity feature for each subject
+- People performed six activities:  
+  1. Walking  
+  2. Walking_Upstairs  
+  3. Walking_Downstairs  
+  4. Sitting  
+  5. Standing  
+  6. Laying.  
+  
+  This data was collected by 30 subjects while wearing a Samsung  
   Galaxy S II smartphone on the waist. Data was collected by using the accelerometer  
   and gyroscope sensors of the smartphone: 3-axial linear acceleration and  
   3-axial angular velocity at a constant rate of 50Hz.
@@ -15,9 +24,9 @@ from the UCI Machine Learning Repository. This dataset contains the following da
   activity. There are 30 subjects, 6 activities for each subject and 561 features  
   for each different subject-activity.
 
-## Features units
+## Features Units
 -  Acceleration features are in standard "g" units  
--  Angular velocity measured with th egyroscope is in radians/second
+-  Angular velocity measured with the gyroscope is in radians/second
 
 ## Important note
 - Features are normalized in the range from -1 to 1: [-1, 1]
@@ -32,7 +41,7 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
 
-# Reference
+## Reference
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra  
 and Jorge L. Reyes-Ortiz. Human Activity Recognition on  
 Smartphones using a Multiclass Hardware-Friendly Support  
@@ -99,7 +108,7 @@ Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
   tBodyGyroMean  
   tBodyGyroJerkMean  
 
-# Set of Features
+# Set of 561 Features
 
 The whole set of 561 features is the following:
 
