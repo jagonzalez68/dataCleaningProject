@@ -22,7 +22,11 @@ and Cleaning Data" course. The dataset contains the following data:
 ## Features
 - This dataset contains the average (mean) for each feature for a subject and an  
   activity. There are 30 subjects, 6 activities for each subject and 561 features  
-  for each different subject-activity.
+  for each different subject-activity. Features are described below, in the "Set of  
+  561 Features" section. Then, we have a table with 563 features including the  
+  subject and activity features and 180 rows that include the average value of each  
+  feature for each subject & activity combination (30 subjects by 6 activities  
+  gives us 180 rows with the average values of each feature).
 
 ## Features Units
 -  Acceleration features are in standard "g" units  
